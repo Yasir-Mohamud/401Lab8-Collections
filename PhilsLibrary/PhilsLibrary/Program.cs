@@ -16,6 +16,7 @@ namespace PhilsLibrary
             BookBag = new List <Book> ();
             LoadBooks();
             Console.WriteLine("Hello World!");
+            
         }
 
 
@@ -27,6 +28,7 @@ namespace PhilsLibrary
             Book four = new Book("Fifty shades of grey", 300, "E.L.", "James", Genre.Romance);
             Book five = new Book("The Great Gatsby", 300, "F. Scott" , "Fitzgerald", Genre.Adventure);
 
+            Library.Add(one);
 
         }
     }

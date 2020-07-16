@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PhilsLibrary
 {
-   public class Library<T>
+   public class Library<T>:IEnumerable
     {
         T[] stored = new T[10];
         int count;
