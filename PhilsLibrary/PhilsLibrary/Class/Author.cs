@@ -8,9 +8,7 @@ namespace PhilsLibrary.Class
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public Author()
-        {
 
-        }
+      
     }
 }
